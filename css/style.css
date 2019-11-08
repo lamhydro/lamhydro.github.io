@@ -89,7 +89,7 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: #333;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -115,9 +115,9 @@ body {
   text-align: center;
   text-decoration: none;
   border-radius: 50%; */
-  padding: 10px;
-  font-size: 20px;
-  width: 40px;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -133,23 +133,23 @@ body {
 }
 
 .fa-twitter {
-  background: #ddd;
+  background: #333;
   color: #55ACEE;
 }
 
 .fa-google {
-  background: #ddd;
+  background: #333;
   color: #dd4b39;
 }
 
 .fa-linkedin {
-  background: #ddd;
+  background: #333;
   color: #007bb5;
 }
 
 .fa-github {
-  background: #ddd;
-  color: black;
+  background: #333;
+  color: white;
 }
 
 /* * {box-sizing:border-box} */
@@ -273,3 +273,31 @@ body {
   height: 400px;  /* The height is 400 pixels */
   width: 100%;  /* The width is the width of the web page */
  }
+
+ a[href^="mailto"]::before {
+    content: "📧 ";
+}
+
+a[href^="tel"]::before {
+    content: "📞 ";
+}
+
+.iconUCL {
+    background: url('../img/University_College_London_logo.svg.png');
+    height: 40px;
+    width: 40px;
+    display: block;
+    /* Other styles here */
+}
+
+#txt1{
+ font-size:21px;
+ line-height:24px;
+}
+.material-icons{
+    display: inline-flex;
+    vertical-align: top;
+}
+
+
+.content {padding:20px;}
