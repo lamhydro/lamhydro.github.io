@@ -1,2 +1,5 @@
-*.sh
+.git/
 .gitignore
+*.sh
+deprecate/
+**/img/nicePics/

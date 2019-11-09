@@ -12,7 +12,12 @@ git status
 git add --all
 
 # Commit  your  files  using  the  following
-git commit -m "new changes"
+git commit -m "new website"
 
-# Push your commit to the remote repository 
+# Push your commit to the remote repository
 git push -u origin master
+
+#> Remove already commited directory from remote repo
+# git rm -r --cached some-directory
+# git commit -m 'Remove the now ignored directory "some-directory"'
+# git push origin master
