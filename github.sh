@@ -12,7 +12,7 @@ git status
 git add --all
 
 # Commit  your  files  using  the  following
-git commit -m "new website"
+git commit -m "website version 1"
 
 # Push your commit to the remote repository
 git push -u origin master

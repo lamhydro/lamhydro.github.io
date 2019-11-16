@@ -158,8 +158,9 @@ body {
 .slideshow-container {
   max-width: 100%;
   position: relative;
+  /* max-height: 10%; */
   margin: auto;
-  height: 100%;
+  /* height: 100%; */
 }
 
 /* Hide the images by default */
@@ -197,6 +198,8 @@ body {
 /* Main text */
 .textZero {
   color: #f2f2f2;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
   font-size: 80px;
   padding: 8px 12px;
   position: absolute;
@@ -207,10 +210,12 @@ body {
 
 .textOne {
   color: #f2f2f2;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
   font-size: 40px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 45%;
+  bottom: 15%;
   width: 100%;
   text-align: center;
 }
