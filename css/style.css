@@ -200,7 +200,7 @@ body {
   color: #f2f2f2;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  font-size: 80px;
+  font-size: 60px;
   padding: 8px 12px;
   position: absolute;
   bottom: 50%;
@@ -212,7 +212,7 @@ body {
   color: #f2f2f2;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  font-size: 40px;
+  font-size: 30px;
   padding: 8px 12px;
   position: absolute;
   bottom: 15%;
