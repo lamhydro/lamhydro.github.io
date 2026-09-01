@@ -306,3 +306,53 @@ a[href^="tel"]::before {
 
 
 .content {padding:20px;}
+.chlLogo {
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 180px;   /* adjust size */
+    height: auto;
+}
+
+.chlLogo2 {
+    width: 40px;   /* adjust size */
+    height: auto;
+}
+
+.project-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.project-image {
+    width: 180px;
+    flex-shrink: 0;
+}
+
+.project-image img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+}
+
+.project-text {
+    flex: 1;
+}
+
+.project-text p {
+    margin: 0;
+}
+
+.project-icon {
+    color: #008060;
+    vertical-align: middle;
+}
+
+.project-title {
+    font-size: 21px;
+    line-height: 24px;
+}
+

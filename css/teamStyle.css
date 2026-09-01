@@ -1,0 +1,305 @@
+/* ============================================================
+   GENERAL
+   ============================================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+}
+
+
+/* ============================================================
+   MAIN CONTAINER
+   ============================================================ */
+
+.people-container {
+    width: 100%;
+}
+
+
+/* ============================================================
+   PERSON
+   ============================================================ */
+
+.person {
+    display: flex;
+
+    width: 100%;
+
+    padding: 10px 8px 38px 8px;
+    margin-bottom: 48px;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+/* ============================================================
+   PHOTO
+   ============================================================ */
+
+.person-photo {
+    width: 180px;
+    flex: 0 0 180px;
+
+    margin-right: 25px;
+}
+
+.person-photo img {
+    width: 180px;
+    height: 180px;
+
+    object-fit: cover;
+    display: block;
+}
+
+
+/* ============================================================
+   INFORMATION
+   ============================================================ */
+
+.person-info {
+    flex: 1;
+    min-width: 0;
+
+    padding-top: 1px;
+}
+
+
+/* ============================================================
+   NAME
+   ============================================================ */
+
+.person-info h2 {
+    margin: 0;
+
+    font-size: 24px;
+    line-height: 1.1;
+
+    font-weight: 700;
+}
+
+.person-info h2 a {
+    color: #007a53;
+    text-decoration: underline;
+}
+
+.person-info h2 a:hover {
+    color: #005c3e;
+}
+
+.degree {
+    margin-left: 3px;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #666666;
+}
+
+
+/* ============================================================
+   POSITION
+   ============================================================ */
+
+.position {
+    margin-top: 2px;
+
+    font-size: 25px;
+    line-height: 1.15;
+
+    color: #777777;
+}
+
+
+/* ============================================================
+   DESCRIPTION
+   ============================================================ */
+
+.description {
+    max-width: 810px;
+
+    margin-top: 19px;
+    margin-bottom: 18px;
+
+    font-size: 14px;
+    line-height: 1.55;
+
+    color: #111111;
+}
+
+.description ul {
+    margin: 10px 0 15px 0;
+    padding-left: 25px;
+}
+
+.description li {
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.description li::marker {
+    color: #008060;
+}
+
+/* ============================================================
+   Undergrate students
+   ============================================================ */
+
+.student-names {
+    color: #008060;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* ============================================================
+   CONTACT BUTTONS
+   ============================================================ */
+
+.contact-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* ============================================================
+   EMAIL BUTTON
+   ============================================================ */
+
+.email-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 8px 13px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    background: #f8f8f8;
+    color: #008060;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+.email-button:hover {
+    background: #eeeeee;
+}
+
+
+/* ============================================================
+   CV BUTTON
+   ============================================================ */
+.cv-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 8px 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    background: #f8f8f8;
+    color: #008060;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+.cv-button:hover {
+    background: #eeeeee;
+}
+
+.cv-icon {
+    font-size: 15px;
+    color: #008060;
+}
+
+/* ============================================================
+   TABLET / SMALL SCREEN
+   ============================================================ */
+
+@media (max-width: 700px) {
+
+    .person {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .person-photo {
+        width: 140px;
+        flex: 0 0 140px;
+
+        margin-right: 18px;
+    }
+
+    .person-photo img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .person-info h2 {
+        font-size: 20px;
+    }
+
+    .position {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+}
+
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+
+@media (max-width: 500px) {
+
+    .person {
+        display: block;
+        padding: 20px;
+    }
+
+    .person-photo {
+        width: 180px;
+        flex: none;
+
+        margin: 0 0 20px 0;
+    }
+
+    .person-photo img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .person-info h2 {
+        font-size: 22px;
+    }
+
+    .position {
+        font-size: 22px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+}
